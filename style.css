@@ -1,0 +1,49 @@
+/* style.css */
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.card-custom {
+  border-radius: 1rem;
+  width: 360px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.card-custom h4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.input-group-text {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.text-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.text-link a {
+  text-decoration: none;
+}

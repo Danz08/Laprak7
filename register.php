@@ -21,12 +21,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Register Laprak 4</title>
+  <title>Register</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
-<body class="d-flex justify-content-center align-items-center vh-100" style="background: linear-gradient(135deg, #a1c4fd, #c2e9fb); margin:0;">
-  <div class="card shadow p-4" style="border-radius: 1rem; width: 360px;">
+<body class="body-bg">
+  <div class="card card-custom">
     <h4 class="text-center text-success mb-4">
       <i class="bi bi-person-plus-fill me-2"></i>Register
     </h4>
@@ -44,7 +45,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </span>
         <input type="password" name="password" class="form-control" placeholder="Password" required>
       </div>
-      <button type="submit" class="btn btn-success w-100">Daftar</button>
+      <div class="text-center">
+        <button type="submit" class="btn btn-success">Daftar</button>
+      </div>
     </form>
     <div class="text-center mt-3">
       <a href="login.php" class="text-decoration-none text-success">Sudah punya akun? Login</a>
